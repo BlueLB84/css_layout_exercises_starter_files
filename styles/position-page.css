@@ -1,14 +1,18 @@
 body {
 	background-image: url("../images/outerspace_landscape.jpeg");
 	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
 }
 
 nav {
-	background-color: grey;
+	background-color: gray;
 	padding: 10px 60px;
 	position: fixed;
 	top: 0;
 	width: 100%;
+	z-index: 1000;
 }
 
 nav > img {
@@ -42,10 +46,22 @@ ul li::after {
 	margin-right: auto;
 	margin-left: auto;
 	position: relative;
-	top: 400px;
+	top: 300px;
 }
 
 .spaceImage {
 	width: 200px;
 	height: 200px;
+}
+
+.cat {
+	position: absolute;
+	top: -100px;
+	left: -100px;
+}
+
+.dog {
+	position: absolute;
+	bottom: -100px;
+	right: -100px;
 }
