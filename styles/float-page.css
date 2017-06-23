@@ -17,10 +17,12 @@ img {
 
 .firstImg {
 	float: left;
+	margin-left: 0px;
 }
 
 .secondImg {
 	float: right;
+	margin-right: 0px;
 }
 
 
