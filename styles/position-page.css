@@ -2,3 +2,50 @@ body {
 	background-image: url("../images/outerspace_landscape.jpeg");
 	background-size: cover;
 }
+
+nav {
+	background-color: grey;
+	padding: 10px 60px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+nav > img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 1px solid black;
+}
+
+ul {
+	list-style-type: none;
+	position: absolute;
+	top: 40px;
+	left: 180px;
+}
+
+li {
+	display: inline-block;
+}
+
+ul li::after {
+	content: "|";
+	color: black;
+	margin-left: 5px;
+}
+
+.greenBorderBox {
+	width: 600px;
+	height: 300px;
+	border: 10px dotted green;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	top: 400px;
+}
+
+.spaceImage {
+	width: 200px;
+	height: 200px;
+}
